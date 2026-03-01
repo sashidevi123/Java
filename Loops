@@ -1,0 +1,68 @@
+water-consumption
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int T=sc.nextInt();
+while(T-->0){
+int x=sc.nextInt();
+if(x>=2000){
+System.out.println("YES");
+}else{
+System.out.println("NO");
+}
+}
+sc.close();
+}
+}
+
+
+
+both-hands
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int T=sc.nextInt();
+while(T>0){
+int L=sc.nextInt();
+int R=sc.nextInt();
+int M=sc.nextInt();
+int pages=M/L;
+if(M%L != 0){
+pages=pages+1;
+}
+int lines=M/R;
+int s=pages+lines;
+System.out.println(s);
+T--;
+}
+sc.close();
+}
+}
+
+
+old-saint
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int T = sc.nextInt();
+while (T-- > 0) {
+ int correctYes = 0;
+int heroYes = 0;
+for (int i = 0; i < 3; i++) {
+ correctYes += sc.nextInt();
+ }
+for (int i = 0; i < 3; i++) {
+heroYes += sc.nextInt();
+}
+if (correctYes == heroYes) {
+System.out.println("Pass");
+} else {
+System.out.println("Fail");
+}
+}
+sc.close();
+ }
+}
