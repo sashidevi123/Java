@@ -1,0 +1,277 @@
+hello world
+public class Main {
+    public static void main(String[] args) {
+        int count = 1;
+        while (count<= 1000) {
+            System.out.println("Hello World");
+            count=count+1;
+        }
+    }
+}
+
+
+
+small-large-equal
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num1=sc.nextInt();
+        int num2=sc.nextInt();
+        if(num1>num2)
+        {
+            System.out.println("a > b");
+        }
+        if(num1<num2)
+        {
+            System.out.println("a < b");
+        }
+        if(num1==num2)
+        {
+            System.out.println("a == b");
+        }
+    }
+}
+
+
+
+divide apples
+import java.util.Scanner;
+public class Hello{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+int k=sc.nextInt();
+System.out.println(k%n);
+sc.close();
+}
+}
+
+
+fever
+import java.util.Scanner;
+class Hello{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int T=sc.nextInt();
+while(T-->0){
+int X=sc.nextInt();
+if(X>98){
+System.out.println("YES");
+}else{
+System.out.println("NO");
+}
+}
+sc.close();
+}
+}
+
+
+
+lunchtime
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int T=sc.nextInt();
+while(T-->0){
+int x=sc.nextInt();
+if (x>=1 && x<=4){
+System.out.println("YES");
+}
+else{
+System.out.println("NO");
+}
+}
+sc.close();
+}
+}
+
+
+hot/cold
+import java.util.Scanner;
+class Hello{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int T=sc.nextInt();
+while(T-->0){
+int c=sc.nextInt();
+if(c>20){
+System.out.println("HOT");
+}
+else{
+System.out.println("COLD");
+}
+}
+sc.close();
+}
+}
+
+
+discount
+import java.util.Scanner;
+class Hello{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+int T = sc.nextInt();
+while (T-- > 0) {
+int x = sc.nextInt();
+System.out.println(100 - x);
+}
+sc.close();
+}
+}
+
+
+
+tv-disc
+  import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int T=sc.nextInt();
+while(T-->0){
+int A=sc.nextInt();
+int B=sc.nextInt();
+int C=sc.nextInt();
+int D=sc.nextInt();
+int firstprice=A-C;
+int secondprice=B-D;
+if(firstprice<secondprice){
+System.out.println("First");
+}
+else if(secondprice<firstprice){
+System.out.println("Second");
+}else{
+System.out.println("Any");
+}
+}
+sc.close();
+}
+}
+
+
+
+battery
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc= new Scanner(System.in);
+int T=sc.nextInt();
+while(T-->0){
+int x=sc.nextInt();
+if(x<=15){
+System.out.println("Yes");
+}
+else{
+System.out.println("No");
+}
+}
+sc.close();
+}
+}
+
+
+chef and candies
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int T=sc.nextInt();
+while (T-- >0) {
+int N=sc.nextInt();
+int X=sc.nextInt();
+if (X >= N) {
+System.out.println(0);
+} else {
+int packets = (N - X + 3) / 4;
+System.out.println(packets);
+}
+}
+sc.close();
+}
+}
+
+
+min-pizza
+  import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int t=sc.nextInt();
+while(t-->0){
+int n=sc.nextInt();
+int x=sc.nextInt();
+int totalslices=n*x;
+int pizzas=(totalslices+3)/4;
+System.out.println(pizzas);
+}
+sc.close();
+}
+}
+
+
+sugarcane
+import java.util.Scanner;
+class Hello{
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int s=sc.nextInt();
+while (s-- > 0) {
+ int n = sc.nextInt();
+ int profit = 15 * n;
+System.out.println(profit);
+}
+sc.close();
+}
+}
+
+
+
+movie
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int x=sc.nextInt();
+int y=sc.nextInt();
+int totaltime=(y/2)+(x-y);
+System.out.println(totaltime);
+sc.close();
+}
+}
+
+
+sum/diff
+import java.util.Scanner;
+class Hello{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int N1=sc.nextInt();
+int N2=sc.nextInt();
+if(N1>N2){
+System.out.println(N1-N2);
+}else{
+System.out.println(N1+N2);
+}
+sc.close();
+}
+}
+
+chef-help
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int T=sc.nextInt();
+while(T-->0){
+int N=sc.nextInt();
+if(N<10){
+System.out.println("Thanks for helping Chef!");
+}else{
+System.out.println("-1");
+}
+}
+sc.close();
+}
+}
